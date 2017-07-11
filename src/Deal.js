@@ -3,10 +3,10 @@ function Deal(shuffledCards) {
   this.currentlySelectedCard = null
 }
 
-Deal.prototype.drawCards = function() {
+Deal.prototype.drawCard = function() {
   if (this.cardsToBeDealt.length > 0) {
     this.currentlySelectedCard = this.cardsToBeDealt.shift()
   } else {
-    return "All the cards have been dealt.";
+    throw ("All the cards have been dealt.");
   }
 }
