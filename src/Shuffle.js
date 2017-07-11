@@ -10,7 +10,7 @@ DeckShuffler.prototype.riffleShuffle = function(deck) {
       if(this.contents.length >= 52) {
         return "That's too many cards." // extract this into own function?
       } else {
-      this.contents.push(firstHalf[n], secondHalf[n]);
+        this.contents.push(firstHalf[n], secondHalf[n]);
+      }
     }
   }
-}
