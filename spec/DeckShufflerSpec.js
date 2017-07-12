@@ -12,11 +12,6 @@ describe("DeckShuffler", function() {
     })
 
   describe("#riffleShuffle", function() {
-    it("prevents shuffling more than a deck of cards", function() {
-      shuffleDeck.riffleShuffle(deck.contents)
-      expect(function(){ shuffleDeck.riffleShuffle(deck.contents) }).toThrow("That's too many cards.")
-    })
-
     it("prevents cards from being in sequence", function() {
       shuffleDeck.riffleShuffle(deck.contents)
       expect(shuffleDeck.contents).toEqual([
@@ -25,6 +20,11 @@ describe("DeckShuffler", function() {
       "DA", "CA", "D2", "C2", "D3", "C3", "D4", "C4", "D5", "C5", "D6", "C6", "D7",
       "C7", "D8", "C8", "D9", "C9", "D10", "C10", "DJ", "CJ", "DQ", "CQ", "DK", "CK"
       ])
+    })
+
+    it("prevents shuffling more than a deck of cards", function() {
+      shuffleDeck.riffleShuffle(deck.contents)
+      expect(function(){ shuffleDeck.riffleShuffle(deck.contents) }).toThrow("That's too many cards.")
     })
   })
 })
