@@ -30,12 +30,20 @@ describe("Deal", function() {
 
     it("prevents attempt to draw card from empty deck", function() {
       for (var n = 0; n < 52; n++) deal.drawCard();
-      expect(function(){deal.drawCard()}).toThrow("All the cards have been dealt.");
+      expect(function(){ deal.drawCard() }).toThrow("All the cards have been dealt.");
     });
 
     it("assigns the drawn card as the currently selected card", function() {
       deal.drawCard()
       expect(deal.currentlySelectedCard).toEqual("SA")
     })
+  });
+
+  describe("#deckCheck", function() {
+    it("ensures the deck has been shuffled", function() {
+      deck = new Deck()
+      deal = new Deal(deck.contents)
+      expect(function(){ deal.deckCheck() }).toThrow("Please shuffle the deck first.");
+    });
   });
 });

@@ -14,7 +14,7 @@ describe("DeckShuffler", function() {
   describe("#riffleShuffle", function() {
     it("prevents shuffling more than a deck of cards", function() {
       shuffleDeck.riffleShuffle(deck.contents);
-      expect(function(){shuffleDeck.riffleShuffle(deck.contents)}).toThrow("That's too many cards." );
+      expect(function(){ shuffleDeck.riffleShuffle(deck.contents) }).toThrow("That's too many cards." );
     });
 
     it("prevents cards from being in sequence", function() {
