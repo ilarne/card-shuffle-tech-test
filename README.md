@@ -9,7 +9,7 @@ To run the test, navigate to the directory in which the script files have been s
 
 There are two ways the script can be run.
 
-To run from the Command Line, navigate to the directory in which the script files have been saved. In this directory, the node REPL can be used to run to execute the script:
+To run from the Command Line, navigate to the directory in which the script files have been saved. In this directory, the `node` REPL can be used to run to execute the script:
 
   ```
   $ node
