@@ -10,11 +10,13 @@ There are two ways the script can be run.
 
 To run from the Command Line, navigate to the directory in which the script files have been saved. In this directory, the node REPL can be used to run to execute the script:
 
-  ```$ node
+  ```
+  $ node
   $ .load src/Deal.js
   $ .load src/Deck.js
   $ .load src/Shuffle.js
-  $ .load src/Deck.js```
+  $ .load src/Deck.js
+  ```
 
 This will allow you to instantiate new objects and functions from the Command Line.
 
