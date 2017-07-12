@@ -35,7 +35,7 @@ After following one of the above methods, the following demonstrates fulfilment 
   > var playerFour = new Player();
   > var deck = new Deck();
   > var shuffle = new DeckShuffler();
-  > shuffle.riffleShuffle(deck.contents)
+  > shuffle.riffleShuffle(deck.contents);
   > var deal = new Deal(shuffle.contents);
   > playerOne.receiveCard(deal.currentlySelectedCard);
   > deal.drawCard();
@@ -47,3 +47,4 @@ After following one of the above methods, the following demonstrates fulfilment 
   > deal.drawCard();
   > playerFour.receiveCard(deal.currentlySelectedCard);
   ```
+ The above code with throw an error once all the cards have been dealt, thus ending the round.
