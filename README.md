@@ -3,7 +3,7 @@
 ### How to test
 
 Tests are run with Jasmine.
-To run the test, navigate to the directory in which the script files have been saved and run `$ open SpecRunner.html`, or copy the file path and run in Google Chrome.
+To run the test, navigate to the directory in which the script files have been saved and run `$ open SpecRunner.html`, or right-click + copy the full file path, and navigate to this path in Google Chrome.
 
 ### How to set up
 
@@ -23,7 +23,7 @@ This will allow you to instantiate new objects and functions from the Command Li
 
 Alternatively, while the SpecRunner.html file is opened in Chrome, the Dev Tools can be used to execute code without the need to manually load the scripts:
 
-  - SpecRunner.html > Right-Click + Inspect > Console
+  - SpecRunner.html > Right-click + Inspect > Console
 
 ### How to use
 
