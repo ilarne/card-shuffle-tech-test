@@ -23,7 +23,7 @@ This will allow you to instantiate new objects and functions from the Command Li
 
 Alternatively, while the SpecRunner.html file is opened in Chrome, the Dev Tools can be used to execute code without the need to manually load the scripts:
 
-  SpecRunner.html > Right-Click + Inspect > Console
+  - SpecRunner.html > Right-Click + Inspect > Console
 
 ### How to use
 
