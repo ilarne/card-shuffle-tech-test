@@ -4,11 +4,11 @@ function Deal(shuffledCards) {
 }
 
 Deal.prototype.drawCard = function() {
-  this.deckCheck();
+  this.deckCheck()
   if (this.cardsToBeDealt.length > 0) {
     this.currentlySelectedCard = this.cardsToBeDealt.shift()
   } else {
-    throw ("All the cards have been dealt.");
+    throw ("All the cards have been dealt.")
   }
 }
 
