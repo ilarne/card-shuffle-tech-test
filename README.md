@@ -6,6 +6,7 @@ Tests are run with Jasmine.
 To run the test, navigate to the directory in which the script files have been saved and run $ open SpecRunner.html, or copy the file path and run in Google Chrome.
 
 ### How to set up
+
 There are two ways the script can be run.
 
 To run from the Command Line, navigate to the directory in which the script files have been saved. In this directory, the node REPL can be used to run to execute the script:
@@ -47,4 +48,5 @@ After following one of the above methods, the following demonstrates fulfilment 
   > deal.drawCard();
   > playerFour.receiveCard(deal.currentlySelectedCard);
   ```
+
  The above code with throw an error once all the cards have been dealt, thus ending the round.
