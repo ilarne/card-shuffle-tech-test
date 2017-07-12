@@ -1,20 +1,20 @@
-Kurt Geiger Tech Test (adjusted for Javascript)
+##Kurt Geiger Tech Test (adjusted for Javascript)
 
-How to test
+###How to test
 
 Tests are run with Jasmine.
 To run the test, navigate to the directory in which the script files have been saved and run $ open SpecRunner.html, or copy the file path and run in Google Chrome.
 
-How to set up
+###How to set up
 There are two ways the script can be run.
 
 To run from the Command Line, navigate to the directory in which the script files have been saved. In this directory, the node REPL can be used to run to execute the script:
 
-  $ node
+  ```$ node
   $ .load src/Deal.js
   $ .load src/Deck.js
   $ .load src/Shuffle.js
-  $ .load src/Deck.js
+  $ .load src/Deck.js```
 
 This will allow you to instantiate new objects and functions from the Command Line.
 
@@ -22,11 +22,11 @@ Alternatively, while the SpecRunner.html file is opened in Chrome, the Dev Tools
 
   SpecRunner.html > Right-Click + Inspect > Console
 
-How to use
+###How to use
 
 After following one of the above methods, the following demonstrates fulfilment of tech test criteria:
 
-  var playerOne = new Player();
+  ```var playerOne = new Player();
   var playerTwo = new Player();
   var playerThree = new Player();
   var playerFour = new Player();
@@ -42,4 +42,4 @@ After following one of the above methods, the following demonstrates fulfilment 
   deal.drawCard();
   playerThree.receiveCard(deal.currentlySelectedCard);
   deal.drawCard();
-  playerFour.receiveCard(deal.currentlySelectedCard);
+  playerFour.receiveCard(deal.currentlySelectedCard);```
