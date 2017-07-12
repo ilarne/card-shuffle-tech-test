@@ -3,7 +3,7 @@
 ### How to test
 
 Tests are run with Jasmine.
-To run the test, navigate to the directory in which the script files have been saved and run $ open SpecRunner.html, or copy the file path and run in Google Chrome.
+To run the test, navigate to the directory in which the script files have been saved and run `$ open SpecRunner.html`, or copy the file path and run in Google Chrome.
 
 ### How to set up
 
