@@ -28,20 +28,22 @@ Alternatively, while the SpecRunner.html file is opened in Chrome, the Dev Tools
 
 After following one of the above methods, the following demonstrates fulfilment of tech test criteria:
 
-  ```var playerOne = new Player();
-  var playerTwo = new Player();
-  var playerThree = new Player();
-  var playerFour = new Player();
-  var deck = new Deck();
-  var shuffle = new DeckShuffler();
-  shuffle.riffleShuffle(deck.contents)
-  var deal = new Deal(shuffle.contents);
-  playerOne.receiveCard(deal.currentlySelectedCard);
-  deal.drawCard();
-  playerOne.receiveCard(deal.currentlySelectedCard);
-  deal.drawCard();
-  playerTwo.receiveCard(deal.currentlySelectedCard);
-  deal.drawCard();
-  playerThree.receiveCard(deal.currentlySelectedCard);
-  deal.drawCard();
-  playerFour.receiveCard(deal.currentlySelectedCard);```
+  ```
+  > var playerOne = new Player();
+  > var playerTwo = new Player();
+  > var playerThree = new Player();
+  > var playerFour = new Player();
+  > var deck = new Deck();
+  > var shuffle = new DeckShuffler();
+  > shuffle.riffleShuffle(deck.contents)
+  > var deal = new Deal(shuffle.contents);
+  > playerOne.receiveCard(deal.currentlySelectedCard);
+  > deal.drawCard();
+  > playerOne.receiveCard(deal.currentlySelectedCard);
+  > deal.drawCard();
+  > playerTwo.receiveCard(deal.currentlySelectedCard);
+  > deal.drawCard();
+  > playerThree.receiveCard(deal.currentlySelectedCard);
+  > deal.drawCard();
+  > playerFour.receiveCard(deal.currentlySelectedCard);
+  ```
